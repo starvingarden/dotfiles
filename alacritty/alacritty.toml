@@ -1,0 +1,80 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+transparent_background_colors = true
+
+[colors.bright]
+black = "#333333"
+blue = "#50bbcf"
+cyan = "#00ffff"
+green = "#33e089"
+magenta = "#b387c8"
+red = "#ff6666"
+white = "#ffffff"
+yellow = "#ffff66"
+
+[colors.dim]
+black = "#131415"
+blue = "#556a7d"
+cyan = "#5b7d78"
+green = "#777c44"
+magenta = "#75617b"
+red = "#864343"
+white = "#eeeeee"
+yellow = "#9e824c"
+
+[colors.normal]
+black = "#000000"
+blue = "#208baf"
+cyan = "#00cccc"
+green = "#11b867"
+magenta = "#855989"
+red = "#ff4444"
+white = "#bbbbbb"
+yellow = "#dddd33"
+
+[colors.primary]
+background = "#111111"
+foreground = "#ffffff"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 12.0
+
+[font.bold]
+family = "HackNerdFont"
+style = "Bold"
+
+[font.bold_italic]
+family = "HackNerdFont"
+style = "Bold Italic"
+
+[font.italic]
+family = "HackNerdFont"
+style = "Italic"
+
+[font.normal]
+family = "HackNerdFont"
+style = "Regular"
+
+[scrolling]
+history = 50000
+multiplier = 3
+
+[window]
+decorations = "none"
+decorations_theme_variant = "None"
+dynamic_padding = true
+dynamic_title = true
+opacity = 0.9
+startup_mode = "windowed"
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 5
+y = 5

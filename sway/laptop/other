@@ -1,0 +1,32 @@
+
+# laptop other
+##############
+
+# display variables
+set $display1 eDP-1
+set $display2 DP-4
+
+# displays
+output $display1 mode --custom 2256x1504@60hz scale 1.5 position 0,0
+# HD display
+#output $display2 mode --custom 1920x1080@60hz scale 1 position 0,1002
+# 4K display
+output $display2 mode --custom 3840x2160@30hz scale 1.5 position 0,1002
+
+# show workspaces on display (comment out to cycle through displays)
+workspace 1 output $display1
+workspace 2 output $display2
+
+# sleep
+exec_always sleep.sh off && swayidle -w timeout 900 'swaylock -f -c 000000' timeout 1800 'systemctl suspend-then-hibernate' resume 'swaymsg "output * enable"' before-sleep 'swaylock -f -c 000000'
+# this will lock your screen after the 1st timeout number of seconds of inactivity,
+# after the 2nd timeout number of seconds of inactivity your computer will go to sleep,
+# it will also turn on your screen after resuming from sleep,
+# it will also lock your screen before your computer goes to sleep
+
+# laptop lid
+# for normal mode use 'lid:on exec sleep.sh now'
+# for clamshell mode use 'lid:on output $display1 disable'
+bindswitch --reload --locked lid:on exec sleep.sh now
+bindswitch --reload --locked lid:off output * enable
+

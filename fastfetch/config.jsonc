@@ -1,0 +1,56 @@
+// colors can be preceeded by "light_" or "bright_"
+
+{
+    "logo": {
+        "source": "arch_small",
+        "color": {
+            "1": "white"
+        },
+        "padding": {
+            "right": 2
+        }
+    },
+    "display": {
+        "separator": ": ",
+        "brightColor": false,
+        "color": {
+            "keys": "cyan",
+            "output": "light_magenta"
+        }
+    },
+    "modules": [
+        "os",
+        "kernel",
+        "shell",
+        "de",
+        "wm",
+        {
+            "type": "display",
+            "key": "Display",
+            "format": "{1}x{2} @ {3}Hz"
+        },
+        {
+            "type": "cpu",
+            "format": "{1}"
+        },
+        {
+            "type": "gpu",
+            "format": "{2}"
+        },
+        "memory",
+        {
+            "type": "disk",
+            "key": "Disk",
+            "format": "{1} / {2} ({3})"
+        },
+        "break",
+        {
+            "type": "colors",
+            "symbol": "block",
+            "block": {
+                "width": 2
+            }
+        },
+        "break"
+    ]
+}
