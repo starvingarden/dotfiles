@@ -63,8 +63,8 @@ export PATH=~/.bin:${PATH}
 # theme environment variables (see arch wiki pages "GTK#Themes" and "Qt#Configuration")
 export ADW_DISABLE_PORTAL=1
 #export GTK_THEME=Adwaita:dark
-export GTK2_RC_FILES=/usr/share/themes/Adwaita/gtk-2.0/gtkrc
-export QT_STYLE_OVERRIDE=adwaita
+export GTK2_RC_FILES=/usr/share/themes/Adwaita-dark/gtk-2.0/gtkrc
+export QT_STYLE_OVERRIDE=adwaita-dark
 
 
 
