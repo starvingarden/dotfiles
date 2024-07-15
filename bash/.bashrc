@@ -7,9 +7,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# add ~/.bin directory to $PATH for user
-export PATH=~/.bin:$PATH
-
 # colored bash prompt
 export PS1="\[\e[36m\][\[\e[m\]\[\e[32m\]\u\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[31m\]\W\[\e[m\]\[\e[36m\]]\[\e[m\]\[\e[31m\]\\$\[\e[m\] "
 
@@ -58,7 +55,6 @@ export TERMINAL=alacritty
 export EDITOR=nvim
 export PAGER=bat
 export BAT_THEME=ansi
-export PATH=~/.bin:${PATH}
 
 # theme environment variables (see arch wiki pages "GTK#Themes" and "Qt#Configuration")
 export ADW_DISABLE_PORTAL=1
@@ -79,5 +75,4 @@ export QT_STYLE_OVERRIDE=adwaita-dark
 # assign keybinds to plugins
 export NNN_PLUG='f:finder;o:fzopen;p:preview-tui'
 
-#export PROMPT_COMMAND="resize &>/dev/null ; $PROMPT_COMMAND"
 export PROMPT_COMMAND="resize &>/dev/null; $PROMPT_COMMAND"

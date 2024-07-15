@@ -67,7 +67,7 @@
     "custom/airplanemode": {
         "format": "{}",
         "tooltip": false,
-        "exec": "~/.bin/waybar/waybar-airplane-mode.sh",
+        "exec": "waybar-airplane-mode.sh",
         "interval": 5,
     },
 
