@@ -42,7 +42,7 @@
 		// "format-good": "", // An empty format will hide the module
 		// "format-full": "",
 		"format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
-		"interval": 5
+		"interval": 15
 	},
 
 
@@ -58,7 +58,7 @@
 
 
 	"cpu": {
-		"interval": 5,
+		"interval": 15,
 		"format": " {usage}%",
 		"tooltip": false
 	},
@@ -68,7 +68,7 @@
         "format": "{}",
         "tooltip": false,
         "exec": "waybar-airplane-mode.sh",
-        "interval": 5,
+        "interval": 15,
     },
 
 
@@ -77,8 +77,8 @@
         "tooltip": true,
         "tooltip-format": "{}",
         "return-type": "json",
-        "exec": "~/.bin/waybar/waybar-vpn-connected.sh",
-        "interval": 5,
+        "exec": "waybar-vpn-connected.sh",
+        "interval": 15,
     },
 
 
@@ -87,8 +87,8 @@
         "tooltip": true,
         "tooltip-format": "{}",
         "return-type": "json",
-        "exec": "~/.bin/waybar/waybar-vpn-disconnected.sh",
-        "interval": 5,
+        "exec": "waybar-vpn-disconnected.sh",
+        "interval": 15,
     },
 
 
@@ -106,7 +106,7 @@
 
 
 	"memory": {
-		"interval": 5,
+		"interval": 15,
 		"format": " {}%"
 	},
 
@@ -144,7 +144,7 @@
 
 	"temperature": {
         // gets cpu temp from /sys/class/thermal
-		"interval": 5,
+		"interval": 15,
         // "thermal-zone": 5,
 		"critical-threshold": 80,
 		"format-critical": "{icon} {temperatureC}°C",
