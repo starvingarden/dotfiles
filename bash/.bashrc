@@ -8,7 +8,7 @@
 [[ $- != *i* ]] && return
 
 # colored bash prompt
-export PS1="\[\e[36m\][\[\e[m\]\[\e[32m\]\u\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[31m\]\W\[\e[m\]\[\e[36m\]]\[\e[m\]\[\e[31m\]\\$\[\e[m\] "
+export PS1="\[\e[96m\][\[\e[m\]\[\e[32m\]\u\[\e[m\]\[\e[95m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[31m\]\W\[\e[m\]\[\e[96m\]]\[\e[m\]\[\e[31m\]\\$\[\e[m\] "
 
 # enables color
 alias diff='diff --color=auto'
