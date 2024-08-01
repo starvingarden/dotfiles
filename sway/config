@@ -95,7 +95,7 @@ for_window  [app_id="org.qbittorrent.qBittorrent"] exec sudo systemctl start jac
 #########
 
 # reload sway on startup
-exec sleep 1 && swaymsg reload
+#exec sleep 1 && swaymsg reload
 
 # enable albert
 ##exec albert
