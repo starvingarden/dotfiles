@@ -143,9 +143,10 @@
 
 
 	"temperature": {
-        // gets cpu temp from /sys/class/thermal
+        // gets cpu temp from /sys/class/thermal unless using hwmon-path
 		"interval": 15,
-        // "thermal-zone": 5,
+        "thermal-zone": 10,
+        // "hwmon-path": "/sys/class/hwmon",
 		"critical-threshold": 80,
 		"format-critical": "{icon} {temperatureC}°C",
 		"format": "{icon} {temperatureC}°C",
