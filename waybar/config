@@ -42,7 +42,7 @@
 		// "format-good": "", // An empty format will hide the module
 		// "format-full": "",
 		"format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
-		"interval": 15
+		"interval": 5
 	},
 
 
@@ -58,7 +58,7 @@
 
 
 	"cpu": {
-		"interval": 15,
+		"interval": 5,
 		"format": " {usage}%",
 		"tooltip": false
 	},
@@ -106,7 +106,7 @@
 
 
 	"memory": {
-		"interval": 15,
+		"interval": 5,
 		"format": " {}%"
 	},
 
@@ -144,7 +144,7 @@
 
 	"temperature": {
         // gets cpu temp from /sys/class/thermal unless using hwmon-path
-		"interval": 15,
+		"interval": 5,
         "thermal-zone": 10,
         // "hwmon-path": "/sys/class/hwmon",
 		"critical-threshold": 80,
