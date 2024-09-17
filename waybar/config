@@ -53,7 +53,8 @@
 
 	"clock": {
 		"interval": 1,
-		"format": "{:%a  %b-%d  %r}"
+		"format": "{:%a  %b-%d  %r}",
+        "tooltip": false
 	},
 
 
