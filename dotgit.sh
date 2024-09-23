@@ -204,6 +204,7 @@ then
 
     # nvim
     cp -r ~/.dotgit/nvim ~/.config
+    cp -r ~/.dotgit/nvim /root/.config
 
     # sway
     cp -r ~/.dotgit/sway ~/.config
