@@ -18,6 +18,8 @@ if [ "$currentUser" == root ]
 then
     echo "this script cannot be run as root"
     exit
+else
+    :
 fi
 
 

@@ -38,6 +38,7 @@ video/mpeg=vlc.desktop
 x-scheme-handler/mailspring=Mailspring.desktop
 application/x-xpinstall=librewolf.desktop
 application/json=librewolf.desktop
+video/quicktime=vlc.desktop
 
 [Added Associations]
 image/svg+xml=feh.desktop;
@@ -45,3 +46,4 @@ video/x-matroska=mpv.desktop;vlc.desktop;
 video/mp4=mpv.desktop;vlc.desktop;
 video/mpeg=vlc.desktop;
 application/pdf=org.pwmt.zathura.desktop;
+video/quicktime=vlc.desktop;
