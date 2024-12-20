@@ -39,6 +39,8 @@ x-scheme-handler/mailspring=Mailspring.desktop
 application/x-xpinstall=librewolf.desktop
 application/json=librewolf.desktop
 video/quicktime=vlc.desktop
+inode/directory=xfce4-file-manager.desktop
+x-scheme-handler/trash=xfce4-file-manager.desktop
 
 [Added Associations]
 image/svg+xml=feh.desktop;
@@ -47,3 +49,6 @@ video/mp4=mpv.desktop;vlc.desktop;
 video/mpeg=vlc.desktop;
 application/pdf=org.pwmt.zathura.desktop;
 video/quicktime=vlc.desktop;
+inode/directory=xfce4-file-manager.desktop;
+x-scheme-handler/trash=xfce4-file-manager.desktop;
+
