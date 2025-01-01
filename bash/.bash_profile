@@ -5,8 +5,7 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 # add directories to $PATH
-#export PATH=/home/kaleb/.bin:$PATH
-export PATH=~/.bin:~/.nix-profile/bin:$PATH
+export PATH=$HOME/.bin:$PATH
 
 # start sway on login
 #exec sway
