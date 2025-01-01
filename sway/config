@@ -122,6 +122,9 @@ exec gammastep
 # enable mako
 exec mako
 
+# start proton-vpn
+exec protonvpn-app
+
 # set screen brightness
 exec_always light -N 1
 exec_always light -S 20
