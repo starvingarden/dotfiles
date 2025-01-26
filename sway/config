@@ -18,23 +18,21 @@
 
 # Device Configuration Start
 
-# laptop other
-##############
+# laptop solo
+#############
 
 # display variables
 set $display1 eDP-1
-set $display2 DP-1
 
 # displays
 output $display1 mode --custom 2256x1504@60hz scale 1.5 position 0,0
-# HD display
-#output $display2 mode --custom 1920x1080@60hz scale 1 position 0,1002
-# 4K display
-output $display2 mode --custom 3840x2160@30hz scale 1.5 position 0,1002
 
 # show workspaces on display (comment out to cycle through displays)
 workspace 1 output $display1
-workspace 2 output $display2
+
+# arrange and focus workspaces on startup
+exec_always swaymsg workspace number 1
+exec_always swaymsg move workspace output $display1
 
 # sleep
 exec_always sleep.sh off && swayidle -w timeout 900 'swaylock -f -c 000000' timeout 1800 'systemctl suspend-then-hibernate' resume 'swaymsg "output * enable"' before-sleep 'swaylock -f -c 000000'
