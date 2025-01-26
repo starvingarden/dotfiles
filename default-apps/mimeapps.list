@@ -41,6 +41,7 @@ application/json=librewolf.desktop
 video/quicktime=vlc.desktop
 inode/directory=xfce4-file-manager.desktop
 x-scheme-handler/trash=xfce4-file-manager.desktop
+video/vnd.avi=vlc.desktop
 
 [Added Associations]
 image/svg+xml=feh.desktop;
@@ -51,4 +52,4 @@ application/pdf=org.pwmt.zathura.desktop;
 video/quicktime=vlc.desktop;
 inode/directory=xfce4-file-manager.desktop;
 x-scheme-handler/trash=xfce4-file-manager.desktop;
-
+video/vnd.avi=vlc.desktop;

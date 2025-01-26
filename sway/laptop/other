@@ -4,7 +4,8 @@
 
 # display variables
 set $display1 eDP-1
-set $display2 DP-4
+set $display2 DP-1
+#set $display2 DP-4
 
 # displays
 output $display1 mode --custom 2256x1504@60hz scale 1.5 position 0,0
