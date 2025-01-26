@@ -47,7 +47,7 @@ exec_always sleep.sh off && swayidle -w timeout 900 'swaylock -f -c 000000' time
 # laptop lid
 # for normal mode use 'lid:on exec sleep.sh now'
 # for clamshell mode use 'lid:on output $display1 disable'
-bindswitch --reload --locked lid:on exec $display1 disable
+bindswitch --reload --locked lid:on output $display1 disable
 bindswitch --reload --locked lid:off output $display1 enable
 
 # Device Configuration End
