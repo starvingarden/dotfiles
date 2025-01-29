@@ -42,6 +42,7 @@ video/quicktime=vlc.desktop
 inode/directory=xfce4-file-manager.desktop
 x-scheme-handler/trash=xfce4-file-manager.desktop
 video/vnd.avi=vlc.desktop
+application/x-matroska=vlc.desktop
 
 [Added Associations]
 image/svg+xml=feh.desktop;
@@ -53,3 +54,4 @@ video/quicktime=vlc.desktop;
 inode/directory=xfce4-file-manager.desktop;
 x-scheme-handler/trash=xfce4-file-manager.desktop;
 video/vnd.avi=vlc.desktop;
+application/x-matroska=vlc.desktop;

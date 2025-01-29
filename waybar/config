@@ -73,24 +73,24 @@
     },
 
 
-    "custom/vpnconnected": {
-        "format": "VPN",
-        "tooltip": true,
-        "tooltip-format": "{}",
-        "return-type": "json",
-        "exec": "waybar-vpn-connected.sh",
-        "interval": 15,
-    },
+    // "custom/vpnconnected": {
+    //    "format": "VPN",
+    //    "tooltip": true,
+    //    "tooltip-format": "{}",
+    //    "return-type": "json",
+    //    "exec": "waybar-vpn-connected.sh",
+    //    "interval": 15,
+    // },
 
 
-    "custom/vpndisconnected": {
-        "format": "VPN",
-        "tooltip": true,
-        "tooltip-format": "{}",
-        "return-type": "json",
-        "exec": "waybar-vpn-disconnected.sh",
-        "interval": 15,
-    },
+    // "custom/vpndisconnected": {
+    //    "format": "VPN",
+    //    "tooltip": true,
+    //    "tooltip-format": "{}",
+    //    "return-type": "json",
+    //    "exec": "waybar-vpn-disconnected.sh",
+    //    "interval": 15,
+    // },
 
 
 	"keyboard-state": {
