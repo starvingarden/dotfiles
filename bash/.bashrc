@@ -39,7 +39,7 @@ eval "$(thefuck --alias)"
 # aliases
 alias lock='swaylock'
 # update the system
-alias update='sudo snapshot-pre-update.sh && paru && flatpak update && sudo systemctl start update.service'
+alias update='sudo systemctl start reflector.service && sudo snapshot-pre-update.sh && paru && flatpak update && sudo systemctl start update.service'
 # before running nmtui, restart NetworkManager
 alias nmtui='sudo systemctl restart NetworkManager && nmtui'
 
