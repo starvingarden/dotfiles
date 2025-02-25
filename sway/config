@@ -131,6 +131,7 @@ exec_always light -S 20
 
 # set volume
 exec_always pactl set-sink-volume @DEFAULT_SINK@ 15%
+#set microphone mute & volume
 
 # xwayland
 ###xwayland enable
